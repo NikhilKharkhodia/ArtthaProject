@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23768" started-at="2020-10-13T08:21:29Z" finished-at="2020-10-13T08:21:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23768" started-at="2020-10-13T08:21:29Z" finished-at="2020-10-13T08:21:53Z">
+      <class name="test.scanario.DemoTest">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:test.scanario.DemoTest@3c22fc4c]" name="setUP" is-config="true" duration-ms="18542" started-at="2020-10-13T08:21:29Z" finished-at="2020-10-13T08:21:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="registeruser()[pri:0, instance:test.scanario.DemoTest@3c22fc4c]" name="registeruser" duration-ms="3822" started-at="2020-10-13T08:21:48Z" finished-at="2020-10-13T08:21:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registeruser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.scanario.DemoTest@3c22fc4c]" name="tearDown" is-config="true" duration-ms="1371" started-at="2020-10-13T08:21:52Z" finished-at="2020-10-13T08:21:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.scanario.DemoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
