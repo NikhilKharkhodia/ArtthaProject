@@ -15,8 +15,6 @@ import Generic.BaseTest;
 
 public class DataDriverTest extends BaseTest {
 
-
-
 	@BeforeMethod
 	public void setUP() throws InterruptedException {
 		try {
@@ -38,8 +36,7 @@ public class DataDriverTest extends BaseTest {
 	public void test1(String firstname, String lastname, String phone, String email, String address, String city,
 			String state, String postalcode, String country, String username, String userpassword,
 			String confirmpassword) throws InterruptedException, AWTException {
-		
-		
+
 		HomePage hp = new HomePage(driver);
 		hp.clickonregister().click();
 		Thread.sleep(2000);

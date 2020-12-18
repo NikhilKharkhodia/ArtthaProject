@@ -9,8 +9,6 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="test.scanario.DemoTest"/>
-      
-            
-    </classes>
+      </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -9,8 +9,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="test.scanario.DemoTest"/>
-      
-      <class name="test.scanario.RendomDataTest"/>
+       <class name="test.scanario.RendomDataTest"/>
       
     </classes>
   </test> <!-- Test -->

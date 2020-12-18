@@ -1,15 +1,13 @@
 package test.scanario;
 
-import java.awt.AWTException;
 import java.io.IOException;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
-import com.github.javafaker.Name;
+
 import com.pages.HomePage;
 
 import com.pages.RegisterPage;
@@ -59,11 +57,11 @@ public class RendomDataTest extends BaseTest {
 		rs.enterpostalcode().sendKeys(zipCode);
 
 	}
-@Test
-	
+
+	@Test
 	public void validatehomepageurl() {
-	String actualurl=driver.getCurrentUrl();
-	
-	Assert.assertEquals(actualurl, "http://demo.guru99.com/test/");
-}
+		String actualurl = driver.getCurrentUrl();
+
+		Assert.assertEquals(actualurl, "http://demo.guru99.com/test/");
+	}
 }
